@@ -1,0 +1,70 @@
+.Login,
+.Signup {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url("login_page.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+}
+.login-form,
+.signup-form {
+  padding: 2rem;
+  background-color: #202133;
+  /* border: 2px solid #202133; */
+  border-radius: 1em;
+  color: #eee;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 460px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  padding-block: 0.5em;
+  padding-inline-start: 0.5em;
+  font-size: 1em;
+}
+
+.error {
+  color: red;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+}
+
+.back-btn {
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  font-size: 0.5em;
+}
+label {
+  font-weight: 600;
+  font-size: 1.25em;
+}
